@@ -18,3 +18,139 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.header {
+  border: 1px solid green;
+  background-color: black;
+}
+.header-list {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-list li {
+  color: lightgray;
+}
+
+.main-content {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-left {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.main-center {
+  width: 55%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 1100px;
+}
+
+.main-right {
+  width: 20%;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-left-about {
+  height: 300px;
+  background-color: rgb(245, 246, 247);
+}
+
+.about {
+  margin-left: 20px;
+}
+
+.archives {
+  background-color: white;
+  margin-left: 20px;
+}
+
+.article {
+  border: 3px solid rgb(246,246,246);
+  width: 500px;
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 20px;
+}
+
+.article-2 {
+  order: 1;
+}
+
+.main-center img{
+  width: 500px;
+  height: 300px;
+}
+
+.article-info {
+  margin-left: 20px;
+}
+
+.article-info a {
+  color: rgb(65,133,254);
+  text-decoration: none;
+}
+
+.main-right-login {
+  border: 3px solid rgb(246,246,246);
+  height: 250px;
+  background-color: rgb(245, 246, 247);
+  margin-bottom: 300px;
+  margin-right: 100px;
+}
+
+.form {
+  height: 200px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.form input {
+  width: 250px;
+  height: 40px;
+  border: 1px solid rgb(226,229,232);
+}
+
+.form button {
+  background-color: rgb(38,96,254);
+  color: white;
+  border: 0;
+  font-size: 20px;
+  margin-top: 20px;
+  width: 250px;
+  height: 40px;
+}
+
+.form-checkbox {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+#checkbox {
+  height: 15px;
+  width: 50px;
+  margin-top: 3px;
+  margin-right: 0;
+}
+
+
